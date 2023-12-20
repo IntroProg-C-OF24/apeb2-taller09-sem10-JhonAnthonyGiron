@@ -4,7 +4,7 @@ public class Ejercicio05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int cantidadEst = 28;
-        double mayorNota = 0, menorNota = 10, promedioClase = 0;
+        double mayorNota, menorNota, promedioClase = 0;
         double promedioEst[] = new double[cantidadEst];
         System.out.println("Promedios Estudiantes: ");
         for (int i = 0; i < promedioEst.length; i++){
